@@ -1,0 +1,33 @@
+Datos para realizar prubas de Registro en las diferentes tablas
+
+	http://localhost:31985/api/editorial
+	
+	{
+        
+        "nombre_Editorial": "Alianza Distribuidora de Venezuela",
+        "direccion_Correspondencia": "Transversal",
+        "telefono": 5988625,
+        "correo_Electronico_Editorial": "aliandis@hotmail.net.co",
+        "maximo_Libros_Registrados": 4
+    }
+	
+	http://localhost:31985/api/autor
+	
+	
+	{
+        "nombre_Autor": "Andrés Caicedo",
+        "fecha_Nacimiento": "1951-09-29",
+        "ciudad_Procedencia": "Santiago de Cali",
+        "correo_Electronico_Autor": "Andres@hotmail.com"
+    }
+	
+	http://localhost:31985/api/libro
+	
+	{
+        "titulo_Libro": "Cien años de Soledad",
+        "año": 1967,
+        "genero": "Novela",
+        "numero_de_Paginas": 350,
+        "Nombre_Editorial": "Alianza Distribuidora de Venezuela",
+        "Nombre_Autor": "Andrés Caicedo"
+    }
